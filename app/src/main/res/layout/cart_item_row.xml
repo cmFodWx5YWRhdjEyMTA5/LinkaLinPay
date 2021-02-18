@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="10dp"
+    android:layout_margin="@dimen/_10sdp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/hillimage"
+        />
+
+    <ImageView
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/list_item_holder"
+        android:src="@drawable/remove"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/list_item_holder"
+        android:background="@drawable/border_1"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:text="3"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:id="@+id/quantity"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/list_item_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:textColor="#34495F"
+            android:textSize="17sp"
+            android:text="@string/productname"
+            android:inputType="textMultiLine"
+            android:fontFamily="@font/candarafont"
+            />
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/color_red"
+            android:textSize="14sp"
+            android:text="$100"
+
+
+            />
+
+        <TextView
+            android:id="@+id/product_offerprice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:text="$90"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

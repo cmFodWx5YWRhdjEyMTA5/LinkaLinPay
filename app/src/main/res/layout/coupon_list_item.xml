@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/orderdtailbackground"
+   android:layout_margin="@dimen/_20sdp"
+    android:paddingLeft="@dimen/_10sdp"
+     android:paddingRight="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.7"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:id="@+id/firstNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/couponname"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#666"
+            android:fontFamily="@font/candarafont"
+            />
+    <TextView
+        android:id="@+id/Couponname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/firstNameTv"
+        android:layout_marginLeft="15dp"
+        android:text="lastName"
+        android:textStyle="bold"
+
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+
+
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:id="@+id/rollNoTitTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cod"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" : "
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#666"
+            android:fontFamily="@font/candarafont"
+            />
+
+        <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000:"
+        android:layout_toRightOf="@+id/rollNoTitTv"
+        android:layout_marginLeft="15dp"
+
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+        />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:id="@+id/courseTitTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expiredate"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" : "
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26-11-20"
+        android:layout_toRightOf="@+id/courseTitTv"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+        />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/view"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="@dimen/_10sdp"
+
+                />
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/remove"
+                android:layout_below="@+id/view"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

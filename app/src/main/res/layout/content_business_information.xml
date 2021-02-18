@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/orgname"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="text"
+                android:id="@+id/organisationname"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/bankaccnumber"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <EditText
+                android:id="@+id/accountnumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="number"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/beneficiaryname"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <EditText
+                android:id="@+id/beneficiaryname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="text"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/authpersonid"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:text="@string/uploaddoc"
+                android:background="@color/color_dark_blue"
+                android:textColor="#333333"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/personid"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/selected_path"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/personalid"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/orglicensecopy"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:text="@string/uploaddoc"
+                android:background="@color/color_dark_blue"
+                android:textColor="#333333"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/licence"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/selected_path"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/licencecopyid"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/authorisedsigncopy"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:text="@string/uploaddoc"
+                android:background="@color/color_dark_blue"
+                android:textColor="#333333"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/signatorycopy"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/selected_path"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/signatoryid"
+                />
+
+
+
+
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="#72C5C9"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

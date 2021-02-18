@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/rounded_border"
+        android:layout_margin="@dimen/_10sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4F4F4"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 android:padding="@dimen/_10sdp"
+
+                >
+
+                <TextView
+                    android:id="@+id/textViewHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/date"
+                    android:textColor="#666"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/candarafont"
+                    />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:gravity="left"
+                    android:text="4 May 2020"
+                    android:textColor="#666"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/candarafont"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C9C9C7"
+                >
+
+            </View>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:background="#F4F4F4"
+                android:padding="@dimen/_10sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/total"
+                    android:textColor="#666"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:background="#F4F4F4"
+                    android:fontFamily="@font/candarafont"
+                    />
+
+                <TextView
+                    android:id="@+id/totalamnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:gravity="center"
+                    android:text="84900"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#666"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/candarafont"
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C9C9C7"
+                >
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:text="@string/oriderid"
+                    android:textColor="#666"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/candarafont"
+
+                    />
+
+                <TextView
+                    android:id="@+id/ordernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:gravity="center"
+                    android:text="402-1234567-890"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#666"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/candarafont"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginTop="@dimen/_15sdp"
+           android:padding="@dimen/_10sdp"
+           >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+
+              >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/status"
+                  android:textColor="@color/color_red"
+                  android:textSize="@dimen/_15sdp"
+                  android:gravity="left"
+                  android:layout_marginLeft="@dimen/_15sdp"
+                  android:textStyle="bold"
+                  android:fontFamily="@font/candarafont"
+
+
+                  />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/pending"
+                  android:textColor="@color/color_red"
+                  android:textSize="@dimen/_15sdp"
+                  android:gravity="left"
+                  android:layout_marginLeft="@dimen/_10sdp"
+                  android:textStyle="bold"
+                  android:fontFamily="@font/candarafont"
+                  android:id="@+id/orderstatus"
+                  />
+
+
+
+          </LinearLayout>
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="@dimen/_5sdp"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/invoiceto"
+                   android:textColor="#666"
+                   android:textSize="@dimen/_15sdp"
+                   android:gravity="left"
+                   android:layout_marginLeft="@dimen/_15sdp"
+                   android:fontFamily="@font/candarafont"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Santosh Kumar"
+                   android:textColor="#666"
+                   android:textSize="@dimen/_15sdp"
+                   android:gravity="center"
+
+                   android:layout_marginLeft="@dimen/_10sdp"
+                   android:fontFamily="@font/candarafont"
+                   android:id="@+id/invoicename"
+                   />
+
+
+
+
+
+
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_margin="@dimen/_10sdp"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/phone"
+                   android:textColor="#666"
+                   android:textSize="@dimen/_15sdp"
+                   android:gravity="left"
+                   android:layout_marginLeft="@dimen/_5sdp"
+                   android:fontFamily="@font/candarafont"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="+91 9990153366"
+                   android:textColor="#666"
+                   android:textSize="@dimen/_15sdp"
+                   android:gravity="center"
+
+                   android:layout_marginLeft="@dimen/_15sdp"
+                   android:fontFamily="@font/candarafont"
+                   android:id="@+id/mobilenumber"
+                   />
+
+
+
+
+
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/email"
+                   android:textColor="#666"
+                   android:textSize="@dimen/_15sdp"
+                   android:gravity="left"
+                   android:layout_marginLeft="@dimen/_15sdp"
+                   android:fontFamily="@font/candarafont"
+
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="support@softzenia.com"
+                   android:textColor="#666"
+                   android:textSize="@dimen/_15sdp"
+                   android:gravity="center"
+                   android:layout_marginLeft="@dimen/_10sdp"
+                   android:fontFamily="@font/candarafont"
+                   android:id="@+id/email"
+                   />
+
+
+           </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/rectangle_background"
+            >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:id="@+id/statusupdate"
+                android:background="@drawable/spinner_bg"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/bottom_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="25"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="190dp"
+                            android:background="@color/colorAccent"
+                            android:layout_margin="@dimen/_5sdp"
+                            >
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="130dp"
+                                android:layout_marginRight="100dp"
+                                android:id="@+id/sellerlogo"
+                                android:src="@drawable/adduser_icon" />
+                        </RelativeLayout>
+
+
+
+
+                        <LinearLayout
+                            android:id="@+id/accountinfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="#FFFFFF"
+                            android:gravity="center_vertical"
+                            android:weightSum="1.1"
+                            >
+
+                            <ImageView
+                                android:id="@+id/video_iv"
+                                android:layout_width="30dp"
+                                android:layout_height="32dp"
+                                android:layout_weight=".01"
+                                android:layout_marginLeft="20dp"
+                                android:background="@drawable/user" />
+
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="@string/accountinfo"
+                                android:paddingLeft="30dp"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_weight=".01"
+                                android:layout_height="25dp"
+                                android:background="@drawable/forwardarrow"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#a9b0c3" />
+
+
+
+                        <LinearLayout
+                            android:id="@+id/businessinfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="#FFFFFF"
+                            android:gravity="center_vertical"
+                            android:weightSum="1.1"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="32dp"
+                                android:layout_weight=".01"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/visacard" />
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="@string/bankinfo"
+                                android:paddingLeft="30dp"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_weight=".01"
+                                android:layout_height="25dp"
+                                android:background="@drawable/forwardarrow"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#a9b0c3" />
+
+
+
+                        <LinearLayout
+                            android:id="@+id/pricing"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="#FFFFFF"
+                            android:gravity="center_vertical"
+                            android:weightSum="1.1"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="32dp"
+                                android:layout_weight=".01"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/dollar" />
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="@string/pricing"
+                                android:paddingLeft="30dp"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_weight=".01"
+                                android:layout_height="25dp"
+                                android:background="@drawable/forwardarrow"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#a9b0c3" />
+
+
+                        <LinearLayout
+                            android:id="@+id/hepl_rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="#FFFFFF"
+                            android:gravity="center_vertical"
+                            android:weightSum="1.1"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="32dp"
+                                android:layout_weight=".01"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/globe" />
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="@string/changelang"
+                                android:paddingLeft="30dp"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+
+
+                            <TextView
+                                android:id="@+id/lang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="25dp"
+                                android:text="English"
+                                android:layout_weight=".01"
+                                android:layout_alignParentRight="true"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#a9b0c3" />
+
+
+                        <LinearLayout
+                            android:id="@+id/currency_setting"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="#FFFFFF"
+                            android:gravity="center_vertical"
+                            android:weightSum="1.1"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="32dp"
+                                android:layout_weight=".01"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/dollar" />
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="@string/changecurr"
+                                android:paddingLeft="30dp"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_weight=".01"
+                                android:layout_height="25dp"
+                                android:background="@drawable/forwardarrow"
+                                />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#a9b0c3" />
+
+
+
+
+
+                        <RelativeLayout
+                            android:id="@+id/changecurrency"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_130sdp"
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginRight="100dp"
+                                android:text="@string/terms"
+                                android:layout_marginTop="20dp"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#a9b0c3" />
+
+
+
+                        <LinearLayout
+                            android:id="@+id/sign_out"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="#FFFFFF"
+                            android:gravity="center_vertical"
+                            android:weightSum="1.1"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="32dp"
+                                android:layout_weight=".01"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/logout"
+                                />
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="@string/logout"
+                                android:paddingLeft="30dp"
+                                android:textColor="@color/color_black"
+                                android:fontFamily="@font/candarafont"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                />
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_weight=".01"
+                                android:layout_height="25dp"
+                                android:background="@drawable/forwardarrow"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</LinearLayout>

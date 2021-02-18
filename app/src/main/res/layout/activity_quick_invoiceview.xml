@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.QuickInvoiceviewActivity"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        >
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/backwardarrow"
+            android:title="Quick Invoice View"
+            android:titleTextAppearance="@style/RobotoTextViewStyle"
+            android:titleTextColor="#FFFFFF"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:text="Quick Invoice View"
+           android:textSize="@dimen/_15sdp"
+           android:textColor="#FFFFFF"
+          android:layout_toRightOf="@+id/toolbar"
+           android:layout_marginLeft="@dimen/_50sdp"
+           android:textStyle="bold"
+           android:layout_marginTop="@dimen/_15sdp"
+           >
+
+       </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_cart"
+            android:id="@+id/cart"
+
+            />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="99"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            android:textStyle="bold"
+
+
+            />
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/content_quick_invoiceview" />
+
+
+</LinearLayout>

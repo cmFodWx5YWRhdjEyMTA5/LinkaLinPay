@@ -1,0 +1,326 @@
+<resources>
+    <dimen name="bottom_height">150dp</dimen>
+    <string name="app_name">LinkaLinPay</string>
+    <string name="mobile">Mobile Number or Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_main_dashboard">Shopper</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Shared related work    -->
+    <string name="cart">Cart</string>
+
+    <string name="progress_bar_loading_message">Please Wait...</string>
+    <string name="no_internet_message">Please check your internet connection</string>
+    <string name="shared_no_data"></string>
+    <string name="shared_loggedin_status_seller">loggedin_status</string>
+
+    <string name="shared_loggedin_status_customer">loggedin_status_customer</string>
+    <string name="shared_user_type">type</string>
+    <string name="shared_seller_email">selleremail</string>
+    <string name="shared_seller_businessname">businessname</string>
+
+    <string name="shared_seller_instagramname">instagramname</string>
+    <string name="shared_seller_id">sellerid</string>
+    <string name="shared_seller_name">sellername</string>
+    <string name="shared_seller_logo">sellerlogo</string>
+    <string name="shared_seller_mobile">sellermobile</string>
+    <string name="shared_seller_currency">currency</string>
+    <string name="shared_customer_id">customerid</string>
+    <string name="shared_customer_name">customername</string>
+    <string name="shared_customer_email">customeremail</string>
+    <string name="shared_customer_mobilenumber">customermobile</string>
+    <string name="shared_customer_pic">customerimage</string>
+    <string name="shared_vendor_id">vendorid</string>
+    <string name="Pending">Pending</string>
+    <string name="Completed">Completed</string>
+    <string name="Cancelled">Cancelled</string>
+    <string name="shared_usertype">usertype</string>
+    <string name="logout_dialog_message">Do you want to logout ?</string>
+    <string name="logout_ok">Yes</string>
+    <string name="logout_cancel">No</string>
+    <string name="logout_dialog_title">Linkalin</string>
+    <string name="custom_title">Choose Images</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Selectcategory">Select Category</string>
+
+    <string name="title_activity_businessfinalsignup">BusinessfinalsignupActivity</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+
+    <string name="next">Next</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="title_activity_bannerlist">BannerlistActivity</string>
+    <string name="title_activity_add_banner">AddBannerActivity</string>
+    <string name="title_activity_my_business_dashboard">MyBusinessDashboardActivity</string>
+    <string name="title_activity_productcategory">Productcategory</string>
+    <string name="title_activity_product_management">ProductManagementActivity</string>
+    <string name="title_activity_add_productactivity">AddProductactivity</string>
+    <string name="title_activity_edit_product">EditProductActivity</string>
+    <string name="title_activity_add_productcategory">AddProductcategory</string>
+    <string name="title_activity_orderlist">OrderlistActivity</string>
+    <string name="title_activity_order_detail">OrderDetailActivity</string>
+    <string name="title_activity_product_details_customer">ProductDetails_customer</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_business_information">BusinessInformation</string>
+    <string name="title_activity_pricing">PricingActivity</string>
+    <string name="title_activity_invoice">InvoiceActivity</string>
+    <string name="title_activity_add_invoice">AddInvoiceActivity</string>
+    <string name="title_activity_cartlist">CartlistActivity</string>
+    <string name="title_activity_checkout">CheckoutActivity</string>
+    <string name="title_activity_quick_invoiceview">QuickInvoiceviewActivity</string>
+    <string name="title_activity_orderdetail_cust">OrderdetailActivity_cust</string>
+    <string name="title_activity_coupon">CouponActivity</string>
+    <string name="title_activity_coupon_detail">CouponDetailActivity</string>
+    <string name="title_activity_addcoupon">AddcouponActivity</string>
+    <string name="title_activity_assign_coupon">AssignCouponActivity</string>
+    <string name="title_activity_add_influencer">AddInfluencerActivity</string>
+    <string name="title_activity_infuencerlist">InfuencerlistActivity</string>
+    <string name="title_activity_track_order">TrackOrderActivity</string>
+    <string name="title_activity_currencyconverter">Currencyconverter</string>
+    <string name="title_activity_edit_productselleractivity">EditProductselleractivity</string>
+    <string-array name="cat_array">
+        <item>Category</item>
+        <item>Amazon</item>
+    </string-array>
+    <string-array name="select_location">
+        <item>Select Location</item>
+    </string-array>
+    <string-array name="sort">
+        <item>A to Z</item>
+        <item>Z to A</item>
+    </string-array>
+
+
+    <string name="chooselang">Choose Language</string>
+    <string name="businessowner">Business Owner</string>
+    <string name="shopper">Shopper</string>
+    
+<!--    sigin-->
+    <string name="signin">Sign In</string>
+    <string name="donthaveacc">Don\'t have account ?</string>
+    <string name="signup">Sign Up</string>
+
+<!--    seller dash-->
+    <string name="switchacc">Switch Account</string>
+    <string name="totalrevenue">TOTAL REVENUE</string>
+    <string name="sell">Sell</string>
+    <string name="mybusiness">My Business</string>
+    <string name="quickinvoice">Quick Invoice</string>
+    <string name="kpyas">Kpays.me</string>
+    <string name="sellercalendar">Seller Calendar</string>
+    <string name="gend">Generate a discount code</string>
+    <string name="myin">My Invoice</string>
+    <string name="mycus">My Customers</string>
+    <string name="helpands">Help &amp; Support</string>
+    <string name="settings"> Setting</string>
+
+
+    <string name="bannermanagement">Banner Management</string>
+    <string name="categorymanagement">Category Management</string>
+    <string name="productmanagement">Product Management</string>
+    <string name="coupon">Coupon</string>
+    <string name="order">Order</string>
+
+    <string name="addbanner">ADD BANNER</string>
+
+    <string name="parents">Parents</string>
+    <string name="action">Action</string>
+    <string name="subc">Sub Category</string>
+
+    <string name="accountinfo">Account Info</string>
+    <string name="bankinfo">Bank Information</string>
+    <string name="pricing">Pricing</string>
+    <string name="changelang">Change  Language</string>
+    <string name="changecurr">Change  Currency Setting</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="logout">Logout</string>
+
+    <string name="switcha">Switch Account</string>
+
+    <string name="report"> Reports</string>
+    <string name="businessname">Business Name</string>
+    <string name="instagramname">Instagram Name</string>
+    <string name="username">User Name</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">Email Address</string>
+    <string name="desc">Description(Bio)*</string>
+    <string name="termshopname">Term Shop Name</string>
+    <string name="sellerdomain">Seller Domain</string>
+    <string name="selleraddress">Seller Address</string>
+    <string name="sellerlocation">Seller Location</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="save">SAVE</string>
+    <string name="orgname">Organisation Name</string>
+    <string name="pending">Pending</string>
+    <string name="dispached">Dispached</string>
+    <string name="cod">Cash on Delivery</string>
+    <string name="booky">Bookeey Wallet</string>
+    <string name="knet">KNET</string>
+    <string name="amex">AMEX</string>
+    <string name="paymeth">Payment Method</string>
+    <string name="billaddr">Billing Address</string>
+    <string name="street">Street Address</string>
+    <string name="countryname">Country Name</string>
+    <string name="statename">State Name</string>
+    <string name="cityname">City Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="shippingaddress">Shipping Address</string>
+    <string name="sameasbilling">Same As Billing Address</string>
+    <string name="confirmorder">CONFIRM ORDER</string>
+    <string name="picpath">Picturepath</string>
+    <string name="enterbannername">Enter Banner Name</string>
+    <string name="bannerdesc">Banner Description</string>
+    <string name="submit">SUBMIT</string>
+    <string name="name">Name</string>
+    <string name="customername">Customer Name</string>
+    <string name="currency">Currency</string>
+    <string name="payableamt">Payable Amount</string>
+    <string name="description">Description</string>
+    <string name="productcategory">Product Category</string>
+    <string name="productname">Product Name</string>
+    <string name="price">Price</string>
+    <string name="offerprice">Offer Price</string>
+    <string name="productstock">Product Stock</string>
+    <string name="featureimg">Featured Image</string>
+    <string name="uploadimg">Upload Image</string>
+    <string name="galleryimg">Gallery Image</string>
+    <string name="parentcategory">Parent Category</string>
+    <string name="categoryname">Category Name</string>
+    <string name="categorydesc">Category Desc</string>
+    <string name="couponname">Coupon Name</string>
+    <string name="couponcode">Coupon Code</string>
+    <string name="limit">Limit</string>
+    <string name="numboftimes">Number of times Coupon can be used</string>
+    <string name="discounttype">Discount Type</string>
+    <string name="discountamt">Discount Amout</string>
+    <string name="expiredate">Expiry Date</string>
+    <string name="primaryemail">Primary Influencer Email</string>
+    <string name="bankaccnumber">Bank Account Number</string>
+    <string name="beneficiaryname">Beneficiary Name</string>
+    <string name="authpersonid">Authorised Person Id</string>
+    <string name="uploaddoc">Upload Document</string>
+    <string name="selected_doc">Selected Path</string>
+    <string name="selected_path">Selected Path :</string>
+    <string name="orglicensecopy">Organisation Licence COPY</string>
+    <string name="authorisedsigncopy">Authorised Signatory Copy</string>
+    <string name="subtotal">Sub total</string>
+    <string name="total">Total</string>
+    <string name="applycoupon">Apply Coupon Code</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="discount">Discount</string>
+    <string name="status">Status</string>
+    <string name="addcoupon">Add Coupon</string>
+    <string name="assigncoupon">Assign Coupon</string>
+    <string name="selectcurrency">Select currency</string>
+    <string name="update">Update</string>
+    <string name="enterbusinessname">Enter Business Name</string>
+    <string name="enterinstaname">Enter Instagram Name</string>
+    <string name="enterusername">Enter User Name</string>
+    <string name="enterfullname">Enter Full Name</string>
+    <string name="yourcurrencyrateare">Your Current Rates are</string>
+    <string name="couponamount">Coupon Amount</string>
+    <string name="oriderid">Order Id</string>
+    <string name="totalamt">Total Amount</string>
+    <string name="orderstatus">Order Status</string>
+    <string name="orderdate">Order Date</string>
+    <string name="color">Color</string>
+    <string name="size">Size</string>
+    <string name="s">S</string>
+    <string name="M">M</string>
+    <string name="L">L</string>
+    <string name="XL">XL</string>
+    <string name="addtocart">Add to Cart</string>
+    <string name="relatedproducts">Related Products</string>
+    <string name="date">Date</string>
+    <string name="invoiceto">Invoice To</string>
+    <string name="customercode">Customer Code</string>
+    <string name="customerstatus">Customer Status</string>
+    <string name="customeremail">Customer Email</string>
+    <string name="customermobile">Customer Mobile</string>
+    <string name="customeraddress">Customer Address</string>
+    <string name="tellus">Tell us about your Business</string>
+    <string name="cpass">Conform Password</string>
+    <string name="typeofbusiness">Type of Business</string>
+    <string name="Verify">Verify</string>
+    <string name="alreadyhaveacc">Already have an account ?</string>
+    <string name="login">Log In</string>
+    <string name="businessdash">Business Dashboard</string>
+    <string name="addproduct">ADD PRODUCT</string>
+    <string name="missingbankdetail">Your bank details is missing. Tap here to complete required details.</string>
+    <string name="storeurl">Store URL</string>
+    <string name="editurl">Edit URL</string>
+    <string name="sharestoreurl">Share store URL</string>
+    <string name="createquickinv">"Create Quick Invoice "</string>
+    <string name="couponlist">Coupon List</string>
+    <string name="coupondetails">Coupon Details</string>
+    <string name="customerlist">Customer List</string>
+    <string name="invoicelist">Invoice List</string>
+    <string name="getintouch">Get in touch with us!</string>
+    <string name="call">Call</string>
+    <string name="chat">Chat</string>
+    <string name="submitquery">Submit Query</string>
+    <string name="sendyourquery">Send us your query</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="orderlist">Order List</string>
+    <string name="loadingplzwait">Loading. Please wait...</string>
+    <string name="addinfluencer">Add Influencer</string>
+    <string name="addphoto">Add Photo!</string>
+    <string name="addcategory">Add Category</string>
+    <string name="cartlist">Cart List</string>
+    <string name="checkoutmeth">Checkout method</string>
+    <string name="customerinfo">Customer Information</string>
+    <string name="editproduct">Edit Product</string>
+    <string name="influencerlist">Influencer List</string>
+    <string name="profile">Profile</string>
+    <string name="trackorder">Track Order</string>
+    <string name="wishlist">WishList</string>
+    <string name="referfriend">Refer Friend</string>
+    <string name="myorder">My Order</string>
+    <string name="productlist">Product List</string>
+    <string name="orderdetail">Order Detail</string>
+    <string name="permissiongrant">Permission Granted</string>
+    <string name="address">Address</string>
+    <string name="iagree">I agree on</string>
+    <string name="fillinfo">Fill your information</string>
+    <string name="poweredbylink">Powered by Linkalin</string>
+    <string name="pleaseverify">please provide username!</string>
+    <string name="invaliduser">Invalid User!</string>
+    <string name="nointernet">No internet connection</string>
+    <string name="shopnow">Shop Now</string>
+    <string name="entershopname">Enter Shop Name</string>
+    <string name="filtercategory">Filter Category</string>
+    <string name="filterbyprice">Filter By Price:</string>
+    <string name="pleaseselectcategory">Please select Category</string>
+    <string name="refer">Refer</string>
+    <string name="track">Track</string>
+    <string name="view">View</string>
+    <string name="reorder">Reorder</string>
+    <string name="vieworderdetails">View Order Detail</string>
+    <string name="iwillpay">I will pay</string>
+    <string name="customerpay">Customer pay</string>
+    <string name="productdetails">Product Details</string>
+    <string name="signinwithdiffacc">Sign in with a different account</string>
+    <string name="Cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="enterorderid">Enter Order Id</string>
+    <string name="apply">Apply</string>
+
+</resources>

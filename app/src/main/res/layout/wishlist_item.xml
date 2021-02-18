@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:background="@drawable/border"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="100dp">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:padding="10dp"
+                            android:src="@drawable/whislist_1"
+                            android:id="@+id/imageview"
+                            />
+
+
+                    </RelativeLayout>
+                    <View
+                        android:background="@color/color_lightgray"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"/>
+                    <LinearLayout
+                        android:background="@color/color_light_gray"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:background="@color/color_light_gray"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/corbelbold"
+                                android:text="T-shirt"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="18sp"
+                                android:id="@+id/productname"
+                                />
+
+
+
+                        </RelativeLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:fontFamily="@font/arial"
+                                android:text="$ 250/- "
+                                android:textColor="@color/color_red"
+                                android:id="@+id/productprice"
+                                />
+
+                            <TextView
+                                android:text="$ 250/- "
+                                android:padding="5dp"
+                                android:fontFamily="@font/arial"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/productofferprice"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border_fill"
+                                android:drawableLeft="@drawable/ic_cart_1"
+                                android:drawablePadding="5dp"
+                                android:gravity="center"
+                                android:fontFamily="@font/arial"
+                                android:padding="8dp"
+                                android:text="@string/addtocart"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="12sp"
+                                android:id="@+id/addtocart"
+                                />
+
+                            <ImageView
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:padding="5dp"
+                                android:src="@drawable/ic_delet"
+                                android:background="@drawable/border_fill"
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/delete"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:background="@drawable/round_lgray"
+        android:padding="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_heart" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

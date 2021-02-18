@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragement.TrackOrderFragment"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="#FFFFFF"
+    >
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45sdp"
+    android:hint="@string/enterorderid"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/_200sdp"
+    android:background="@drawable/rectangle_white_boarder"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:textColorHint="#666"
+    android:fontFamily="@font/candarafont"
+    android:textSize="@dimen/_15sdp"
+    android:id="@+id/orderid"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="@dimen/_16sdp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/orderid"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:id="@+id/submit"
+
+        >
+
+
+    </Button>
+
+
+
+
+
+
+
+
+</RelativeLayout>

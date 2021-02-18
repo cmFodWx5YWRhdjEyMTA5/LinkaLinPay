@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/color_dark"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:onClick="back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/b"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/backwardarrow"/>
+
+
+        </LinearLayout>
+        <TextView
+
+            android:text="@string/switcha"
+            android:layout_marginLeft="@dimen/_70sdp"
+            android:layout_marginRight="@dimen/_70sdp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addinvoicee"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+
+
+
+
+
+
+
+
+        <!--        <TextView-->
+        <!--            android:layout_marginRight="15dp"-->
+        <!--            android:layout_marginLeft="15dp"-->
+        <!--            android:text="ADD INVOICE"-->
+        <!--            android:textAllCaps="true"-->
+        <!--            android:background="@drawable/white_bg"-->
+        <!--            android:paddingLeft="12dp"-->
+        <!--            android:paddingTop="8dp"-->
+        <!--            android:paddingBottom="8dp"-->
+        <!--            android:paddingRight="12dp"-->
+        <!--            android:layout_centerInParent="true"-->
+        <!--            android:textColor="@color/color_blue"-->
+        <!--            android:layout_alignParentRight="true"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/addinvoice"-->
+
+        <!--            />-->
+
+
+
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_accounts"
+        />
+    <include
+        layout="@layout/item_account"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/plus_acc"
+                android:tint="@color/alert_ex"
+                />
+            <TextView
+                android:onClick="logout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/signinwithdiffacc"
+                android:textSize="15sp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Cancel"
+                android:onClick="back"
+                android:textColor="@color/color_red"
+                android:textSize="16sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keo.onsite.linkalinpay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SellerCalendar"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".activity.Kpays"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SwitchAccount"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SubmitQuery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HelpSupport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CustomerInfo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CustomerList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.EditProductselleractivity"
+            android:label="@string/title_activity_edit_productselleractivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Currencyconverter"
+            android:label="@string/title_activity_currencyconverter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TrackOrderActivity"
+            android:label="@string/title_activity_track_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.InfuencerlistActivity"
+            android:label="@string/title_activity_infuencerlist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddInfluencerActivity"
+            android:label="@string/title_activity_add_influencer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AssignCouponActivity"
+            android:label="@string/title_activity_assign_coupon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddcouponActivity"
+            android:label="@string/title_activity_addcoupon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CouponDetailActivity"
+            android:label="@string/title_activity_coupon_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CouponActivity"
+            android:label="@string/title_activity_coupon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OrderdetailActivity_cust"
+            android:label="@string/title_activity_orderdetail_cust"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.QuickInvoiceviewActivity"
+            android:label="@string/title_activity_quick_invoiceview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CheckoutActivity"
+            android:label="@string/title_activity_checkout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CartlistActivity"
+            android:label="@string/title_activity_cartlist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddInvoiceActivity"
+            android:label="@string/title_activity_add_invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.InvoiceActivity"
+            android:label="@string/title_activity_invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.PricingActivity"
+            android:label="@string/title_activity_pricing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BusinessInformation"
+            android:label="@string/title_activity_business_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.InformationActivity"
+            android:label="@string/title_activity_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ProductDetails_customer"
+            android:label="@string/title_activity_product_details_customer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OrderDetailActivity_seller"
+            android:label="@string/title_activity_order_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OrderlistActivity"
+            android:label="@string/title_activity_orderlist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddProductcategory"
+            android:label="@string/title_activity_add_productcategory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.EditProductActivity"
+            android:label="@string/title_activity_edit_product"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddProductactivity"
+            android:label="@string/title_activity_add_productactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ProductManagementActivity"
+            android:label="@string/title_activity_product_management"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Productcategory"
+            android:label="@string/title_activity_productcategory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MyBusinessDashboardActivity"
+            android:label="@string/title_activity_my_business_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddBannerActivity"
+            android:label="@string/title_activity_add_banner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BannerlistActivity"
+            android:label="@string/title_activity_bannerlist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BusinessfinalsignupActivity"
+            android:label="@string/title_activity_businessfinalsignup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gun0912.tedpicker.ImagePickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ProductDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainDashboardActivity"
+            android:label="@string/title_activity_main_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DashBoardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ShopperActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BusinessSignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.tabswaper.MainActicityNewTwo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+    <permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:protectionLevel="dangerous" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>

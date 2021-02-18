@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/orderdtailbackground"
+    android:layout_margin="@dimen/_20sdp"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    >
+    <TextView
+        android:id="@+id/firstNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @string/name"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/firstNameTv"
+        android:layout_marginLeft="15dp"
+        android:text="lastName"
+        android:textStyle="bold"
+
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+
+
+        />
+    <TextView
+        android:id="@+id/rollNoTitTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@+id/firstNameTv"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000:"
+        android:layout_toRightOf="@+id/rollNoTitTv"
+        android:layout_below="@+id/firstNameTv"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+        />
+    <ImageView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/remove"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/firstNameTv"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/courseTitTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:layout_below="@+id/rollNoTitTv"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/mobilenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26-11-20"
+        android:layout_toRightOf="@+id/courseTitTv"
+        android:layout_below="@+id/rollNoTitTv"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#666"
+        android:fontFamily="@font/candarafont"
+        />
+</RelativeLayout>

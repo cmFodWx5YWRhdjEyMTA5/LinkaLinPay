@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/couponname"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+
+
+                />
+
+
+            <EditText
+                android:id="@+id/couponname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rect2"
+                android:inputType="text"
+                android:hint="@string/couponname"
+                android:paddingRight="@dimen/_10sdp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/couponcode"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/couponcode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="text"
+                android:hint="@string/couponcode"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:layout_marginTop="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/limit"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/limit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="number"
+                android:hint="@string/numboftimes"
+                android:paddingLeft="@dimen/_10sdp"
+               android:paddingRight="@dimen/_10sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/discounttype"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                />
+
+
+            <Spinner
+                android:id="@+id/discounttype"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="number"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/discountamt"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/discountamount"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:hint="@string/discountamt"
+                android:inputType="number"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/expiredate"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/expirydate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="text"
+                android:hint="dd-mm-yyyy"
+               android:drawableRight="@drawable/calicon"
+                android:focusable="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/primaryemail"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                />
+
+
+            <Spinner
+                android:id="@+id/influenceremail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_below="@+id/il_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="#72C5C9"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

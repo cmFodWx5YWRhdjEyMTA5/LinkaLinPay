@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <!--<androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:elevation="4dp">
+-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_30sdp"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:orientation="vertical"
+            android:background="#F4F4F4"
+            android:layout_marginTop="50dp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+
+
+               >
+               <TextView
+                   android:id="@+id/textViewHead"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:text="@string/orderdate"
+                   android:textColor="#666"
+                    android:textStyle="bold"
+                   android:gravity="center"
+                  android:textSize="@dimen/_15sdp"
+
+                   />
+
+               <TextView
+                   android:id="@+id/date"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="@dimen/_30sdp"
+                   android:text="4 may 2020"
+                   android:textAppearance="?android:textAppearanceMedium"
+                   android:gravity="center"
+                   android:textSize="@dimen/_15sdp"
+                   android:textColor="#666"
+                   android:textStyle="bold"
+                   />
+
+           </LinearLayout>
+          <View
+              android:layout_width="wrap_content"
+              android:layout_height="1dp">
+
+          </View>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="Order#"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="402-12345678-90"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    android:id="@+id/orderid"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:textColor="#666"
+                    />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:text="$ 84900"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    android:id="@+id/total"
+                    android:textColor="#666"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    <!--</androidx.cardview.widget.CardView>-->
+
+    <RelativeLayout
+        android:id="@+id/singleRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_margin="@dimen/_10sdp"
+       android:paddingRight="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:id="@+id/userImg"
+            android:background="@drawable/hillimage"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+           android:layout_marginTop="@dimen/_10sdp"
+            />
+
+        <TextView
+            android:id="@+id/pNametxt"
+            android:text="@string/orderstatus"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/userImg"
+            android:layout_toEndOf="@+id/userImg"
+            android:layout_marginStart="8dp"
+            android:textColor="#464646"
+            android:textStyle="bold"
+            android:fontFamily="@font/candarafont"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            />
+
+        <TextView
+            android:id="@+id/pname"
+            android:text=" @string/productname"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pNametxt"
+            android:layout_alignLeft="@+id/pNametxt"
+            android:layout_alignStart="@+id/pNametxt"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="#666"
+            android:fontFamily="@font/candarafont"
+           android:layout_marginLeft="@dimen/_10sdp"
+            />
+        <TextView
+            android:id="@+id/description"
+            android:text="Lorem Ipsum is simply Dummy Text"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pname"
+            android:layout_alignLeft="@+id/pname"
+            android:layout_alignStart="@+id/pname"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="#666"
+            android:fontFamily="@font/candarafont"
+
+            />
+
+
+
+
+
+
+
+
+        <TextView
+            android:text="@string/pending"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pNametxt"
+            android:layout_marginTop="20dp"
+             android:layout_marginLeft="@dimen/_20sdp"
+             android:textColor="#464646"
+             android:textStyle="bold"
+             android:id="@+id/status"
+
+
+            />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:layout_below="@+id/pname"
+            android:layout_alignLeft="@+id/pname"
+            android:maxLines="1"
+            android:text="$999.00"
+            android:textColor="#666"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vieworderdetails"
+        android:layout_below="@+id/amount"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/color_dark"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_15sdp"
+       android:id="@+id/viewdetails"
+
+        >
+
+
+
+    </Button>
+
+
+
+    </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

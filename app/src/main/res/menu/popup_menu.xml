@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="name" />
+    <item
+        android:id="@+id/two"
+        android:title="category name"/>
+    <item
+        android:id="@+id/three"
+        android:title="new category"/>
+
+    <item
+        android:id="@+id/four"
+        android:title="test sub category"/>
+
+    <item
+        android:id="@+id/five"
+        android:title="demo 123"/>
+
+    <item
+        android:id="@+id/six"
+        android:title="test category"/>
+
+
+
+
+
+
+</menu>

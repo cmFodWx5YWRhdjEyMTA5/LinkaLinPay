@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_1"
+    tools:context=".activity.DashBoardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/color_dark"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_setting"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/setting" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/img_edit"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/edit" />
+
+            <ImageView
+                android:id="@+id/img_notification"
+                android:layout_marginLeft="20dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/bell" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/switcha"
+            android:layout_marginTop="5dp"
+            android:id="@+id/switching"
+            android:textAllCaps="true"
+            android:background="@drawable/white_bg"
+            android:paddingLeft="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="12dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_blue"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bankerror"
+            android:visibility="visible"
+            android:layout_marginTop="20dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/alert_bg"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="0.1"
+
+        android:src="@drawable/exclamation"
+        android:tint="@color/alert_ex"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/missingbankdetail"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:paddingRight="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center|left"
+        />
+
+</LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/candarafont"
+                android:text="@string/totalrevenue" />
+
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:gravity="center|left"
+                android:id="@+id/total"
+                android:fontFamily="@font/candarafont"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            android:background="@color/color_gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/color_dark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:text="@string/sell" />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mybusiness"
+
+                >
+
+                <ImageView
+                    android:background="@drawable/bt"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/my_business" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textAllCaps="true"
+
+                    android:gravity="center"
+                    android:text="@string/mybusiness"
+                    android:textColor="@color/color_black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+<!--android:fontFamily="@font/candarafont"-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/quikinvoice_real"
+
+                >
+
+
+                <ImageView
+                    android:background="@drawable/bt"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/quick_invoice" />
+
+                <TextView
+                    android:text="@string/quickinvoice"
+                    android:textSize="12sp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/color_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kpays"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:background="@drawable/bt"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/kpays" />
+
+                <TextView
+                    android:text="@string/kpyas"
+                    android:textAllCaps="true"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:padding="5dp"
+
+                    android:textColor="@color/color_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/calendar"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bt"
+                    android:padding="10dp"
+                    android:src="@drawable/sales_calendar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/sellercalendar"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/generatecouponcode"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bt"
+                    android:padding="10dp"
+                    android:src="@drawable/discount" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/gend"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/color_gray" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/report"
+            android:textAllCaps="true"
+            android:textColor="@color/color_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/quikinvoice"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:background="@drawable/bt_gray"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/my_invoices" />
+
+                <TextView
+                    android:text="@string/myin"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:padding="5dp"
+                     android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/customerlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:background="@drawable/bt_gray"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/my_customers" />
+
+                <TextView
+                    android:text="@string/mycus"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                     android:padding="5dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/color_gray" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/help"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:background="@drawable/bt_gray"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/contact_us_for" />
+
+            <TextView
+                android:text="@string/helpands"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:padding="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/color_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

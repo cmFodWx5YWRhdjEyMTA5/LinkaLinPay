@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragement.ProductListFragment"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:orientation="vertical"
+
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/styleimage"
+        android:layout_height="180dp"/>
+
+        <TextView
+            android:text="@string/filtercategory"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/corbelbold"
+            android:drawablePadding="10dp"
+            android:textColor="@color/color_black"
+            android:drawableLeft="@drawable/ic_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filterproduct"
+            />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:paddingLeft="@dimen/_10sdp"
+       android:paddingRight="@dimen/_10sdp"
+       android:layout_margin="@dimen/_10sdp"
+       android:background="@drawable/rectangle_white_boarder"
+       android:id="@+id/filterlayout"
+        android:visibility="gone"
+       >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:text="Sort By:"
+            android:textSize="@dimen/_17sdp"
+            android:fontFamily="@font/candarafont"
+            android:textColor="#666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="left"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/atoz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="A to Z"
+                    android:textColor="#34495F"
+                    android:buttonTint="#34495F"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_15sdp"
+                    />
+
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Z to A"
+                    android:textColor="#34495F"
+                    android:buttonTint="#34495F"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:id="@+id/ztoa"
+                    />
+
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:text="@string/filterbyprice"
+            android:textSize="@dimen/_17sdp"
+            android:fontFamily="@font/corbelbold"
+            android:textColor="#666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:gravity="left"
+            android:textStyle="bold"
+            />
+
+        <com.keo.onsite.linkalinpay.activity.filter.RangeBar
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rangebar1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            custom:tickStart="1"
+            custom:tickInterval="1"
+            custom:tickEnd="10000"
+            custom:pinMaxFont="15sp"
+           android:layout_marginTop="@dimen/_10sdp"
+
+            />
+
+        <TextView
+            android:id="@+id/price_txt"
+            android:textColor="#666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price Range"
+            android:layout_marginBottom="@dimen/_10sdp"
+             android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+       <Button
+           android:layout_width="120dp"
+           android:layout_height="40dp"
+           android:text="@string/apply"
+           android:background="@color/colorAccent"
+           android:textColor="@color/color_white"
+           android:layout_gravity="right"
+           android:layout_marginBottom="@dimen/_10sdp"
+           android:id="@+id/apply"
+
+           />
+
+   </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerview"
+                android:layout_margin="@dimen/_10sdp"
+                >
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>

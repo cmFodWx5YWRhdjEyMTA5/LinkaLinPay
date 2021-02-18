@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.keo.onsite.linkalinpay.activity.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.keo.onsite.linkalinpay.activity.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First2Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First2Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first2">
+
+        <action
+            android:id="@+id/action_First2Fragment_to_Second2Fragment"
+            app:destination="@id/Second2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second2Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second2Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second2">
+
+        <action
+            android:id="@+id/action_Second2Fragment_to_First2Fragment"
+            app:destination="@id/First2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First3Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First3Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first3">
+
+        <action
+            android:id="@+id/action_First3Fragment_to_Second3Fragment"
+            app:destination="@id/Second3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second3Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second3Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second3">
+
+        <action
+            android:id="@+id/action_Second3Fragment_to_First3Fragment"
+            app:destination="@id/First3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First4Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First4Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first4">
+
+        <action
+            android:id="@+id/action_First4Fragment_to_Second4Fragment"
+            app:destination="@id/Second4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second4Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second4Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second4">
+
+        <action
+            android:id="@+id/action_Second4Fragment_to_First4Fragment"
+            app:destination="@id/First4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First5Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First5Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first5">
+
+        <action
+            android:id="@+id/action_First5Fragment_to_Second5Fragment"
+            app:destination="@id/Second5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second5Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second5Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second5">
+
+        <action
+            android:id="@+id/action_Second5Fragment_to_First5Fragment"
+            app:destination="@id/First5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First6Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First6Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first6">
+
+        <action
+            android:id="@+id/action_First6Fragment_to_Second6Fragment"
+            app:destination="@id/Second6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second6Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second6Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second6">
+
+        <action
+            android:id="@+id/action_Second6Fragment_to_First6Fragment"
+            app:destination="@id/First6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First7Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First7Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first7">
+
+        <action
+            android:id="@+id/action_First7Fragment_to_Second7Fragment"
+            app:destination="@id/Second7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second7Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second7Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second7">
+
+        <action
+            android:id="@+id/action_Second7Fragment_to_First7Fragment"
+            app:destination="@id/First7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First8Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First8Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first8">
+
+        <action
+            android:id="@+id/action_First8Fragment_to_Second8Fragment"
+            app:destination="@id/Second8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second8Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second8Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second8">
+
+        <action
+            android:id="@+id/action_Second8Fragment_to_First8Fragment"
+            app:destination="@id/First8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First9Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First9Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first9">
+
+        <action
+            android:id="@+id/action_First9Fragment_to_Second9Fragment"
+            app:destination="@id/Second9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second9Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second9Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second9">
+
+        <action
+            android:id="@+id/action_Second9Fragment_to_First9Fragment"
+            app:destination="@id/First9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First10Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First10Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first10">
+
+        <action
+            android:id="@+id/action_First10Fragment_to_Second10Fragment"
+            app:destination="@id/Second10Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second10Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second10Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second10">
+
+        <action
+            android:id="@+id/action_Second10Fragment_to_First10Fragment"
+            app:destination="@id/First10Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First11Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First11Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first11">
+
+        <action
+            android:id="@+id/action_First11Fragment_to_Second11Fragment"
+            app:destination="@id/Second11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second11Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second11Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second11">
+
+        <action
+            android:id="@+id/action_Second11Fragment_to_First11Fragment"
+            app:destination="@id/First11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First12Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First12Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first12">
+
+        <action
+            android:id="@+id/action_First12Fragment_to_Second12Fragment"
+            app:destination="@id/Second12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second12Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second12Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second12">
+
+        <action
+            android:id="@+id/action_Second12Fragment_to_First12Fragment"
+            app:destination="@id/First12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First13Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First13Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first13">
+
+        <action
+            android:id="@+id/action_First13Fragment_to_Second13Fragment"
+            app:destination="@id/Second13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second13Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second13Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second13">
+
+        <action
+            android:id="@+id/action_Second13Fragment_to_First13Fragment"
+            app:destination="@id/First13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First14Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First14Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first14">
+
+        <action
+            android:id="@+id/action_First14Fragment_to_Second14Fragment"
+            app:destination="@id/Second14Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second14Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second14Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second14">
+
+        <action
+            android:id="@+id/action_Second14Fragment_to_First14Fragment"
+            app:destination="@id/First14Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First15Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First15Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first15">
+
+        <action
+            android:id="@+id/action_First15Fragment_to_Second15Fragment"
+            app:destination="@id/Second15Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second15Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second15Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second15">
+
+        <action
+            android:id="@+id/action_Second15Fragment_to_First15Fragment"
+            app:destination="@id/First15Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First16Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First16Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first16">
+
+        <action
+            android:id="@+id/action_First16Fragment_to_Second16Fragment"
+            app:destination="@id/Second16Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second16Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second16Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second16">
+
+        <action
+            android:id="@+id/action_Second16Fragment_to_First16Fragment"
+            app:destination="@id/First16Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First17Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First17Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first17">
+
+        <action
+            android:id="@+id/action_First17Fragment_to_Second17Fragment"
+            app:destination="@id/Second17Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second17Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second17Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second17">
+
+        <action
+            android:id="@+id/action_Second17Fragment_to_First17Fragment"
+            app:destination="@id/First17Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First18Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First18Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first18">
+
+        <action
+            android:id="@+id/action_First18Fragment_to_Second18Fragment"
+            app:destination="@id/Second18Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second18Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second18Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second18">
+
+        <action
+            android:id="@+id/action_Second18Fragment_to_First18Fragment"
+            app:destination="@id/First18Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First19Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First19Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first19">
+
+        <action
+            android:id="@+id/action_First19Fragment_to_Second19Fragment"
+            app:destination="@id/Second19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second19Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second19Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second19">
+
+        <action
+            android:id="@+id/action_Second19Fragment_to_First19Fragment"
+            app:destination="@id/First19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First20Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First20Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first20">
+
+        <action
+            android:id="@+id/action_First20Fragment_to_Second20Fragment"
+            app:destination="@id/Second20Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second20Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second20Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second20">
+
+        <action
+            android:id="@+id/action_Second20Fragment_to_First20Fragment"
+            app:destination="@id/First20Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First21Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First21Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first21">
+
+        <action
+            android:id="@+id/action_First21Fragment_to_Second21Fragment"
+            app:destination="@id/Second21Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second21Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second21Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second21">
+
+        <action
+            android:id="@+id/action_Second21Fragment_to_First21Fragment"
+            app:destination="@id/First21Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First22Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First22Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first22">
+
+        <action
+            android:id="@+id/action_First22Fragment_to_Second22Fragment"
+            app:destination="@id/Second22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second22Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second22Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second22">
+
+        <action
+            android:id="@+id/action_Second22Fragment_to_First22Fragment"
+            app:destination="@id/First22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First23Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First23Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first23">
+
+        <action
+            android:id="@+id/action_First23Fragment_to_Second23Fragment"
+            app:destination="@id/Second23Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second23Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second23Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second23">
+
+        <action
+            android:id="@+id/action_Second23Fragment_to_First23Fragment"
+            app:destination="@id/First23Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First24Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First24Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first24">
+
+        <action
+            android:id="@+id/action_First24Fragment_to_Second24Fragment"
+            app:destination="@id/Second24Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second24Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second24Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second24">
+
+        <action
+            android:id="@+id/action_Second24Fragment_to_First24Fragment"
+            app:destination="@id/First24Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First25Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First25Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first25">
+
+        <action
+            android:id="@+id/action_First25Fragment_to_Second25Fragment"
+            app:destination="@id/Second25Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second25Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second25Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second25">
+
+        <action
+            android:id="@+id/action_Second25Fragment_to_First25Fragment"
+            app:destination="@id/First25Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First26Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First26Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first26">
+
+        <action
+            android:id="@+id/action_First26Fragment_to_Second26Fragment"
+            app:destination="@id/Second26Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second26Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second26Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second26">
+
+        <action
+            android:id="@+id/action_Second26Fragment_to_First26Fragment"
+            app:destination="@id/First26Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First27Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First27Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first27">
+
+        <action
+            android:id="@+id/action_First27Fragment_to_Second27Fragment"
+            app:destination="@id/Second27Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second27Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second27Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second27">
+
+        <action
+            android:id="@+id/action_Second27Fragment_to_First27Fragment"
+            app:destination="@id/First27Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First28Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First28Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first28">
+
+        <action
+            android:id="@+id/action_First28Fragment_to_Second28Fragment"
+            app:destination="@id/Second28Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second28Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second28Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second28">
+
+        <action
+            android:id="@+id/action_Second28Fragment_to_First28Fragment"
+            app:destination="@id/First28Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First29Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First29Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first29">
+
+        <action
+            android:id="@+id/action_First29Fragment_to_Second29Fragment"
+            app:destination="@id/Second29Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second29Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second29Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second29">
+
+        <action
+            android:id="@+id/action_Second29Fragment_to_First29Fragment"
+            app:destination="@id/First29Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First30Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First30Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first30">
+
+        <action
+            android:id="@+id/action_First30Fragment_to_Second30Fragment"
+            app:destination="@id/Second30Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second30Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second30Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second30">
+
+        <action
+            android:id="@+id/action_Second30Fragment_to_First30Fragment"
+            app:destination="@id/First30Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First31Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First31Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first31">
+
+        <action
+            android:id="@+id/action_First31Fragment_to_Second31Fragment"
+            app:destination="@id/Second31Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second31Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second31Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second31">
+
+        <action
+            android:id="@+id/action_Second31Fragment_to_First31Fragment"
+            app:destination="@id/First31Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First32Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.First32Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first32">
+
+        <action
+            android:id="@+id/action_First32Fragment_to_Second32Fragment"
+            app:destination="@id/Second32Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second32Fragment"
+        android:name="com.keo.onsite.linkalinpay.activity.Second32Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second32">
+
+        <action
+            android:id="@+id/action_Second32Fragment_to_First32Fragment"
+            app:destination="@id/First32Fragment" />
+    </fragment>
+</navigation>

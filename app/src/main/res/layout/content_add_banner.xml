@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_margin="@dimen/_10sdp"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:alpha="1"
+                       />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/picturepath"
+    android:text="@string/picpath"
+     android:textColor="#34495F"
+    android:textSize="@dimen/_15sdp"
+      android:fontFamily="@font/candarafont"
+        >
+
+</TextView>
+
+
+
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/uploadimage"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:id="@+id/uploadimage"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/rect2" >
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:ems="10"
+                                android:hint="@string/enterbannername"
+                                android:inputType="text"
+                                android:paddingLeft="5dp"
+                                android:id="@+id/bannername"
+                                android:textColor="#34495F"
+                                android:fontFamily="@font/candarafont"
+                                android:textColorHint="#34495F"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/rect2" >
+
+                            <EditText
+                                android:id="@+id/bannerdescription"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:ems="10"
+                                android:hint="@string/bannerdesc"
+                                android:inputType="textMultiLine"
+                                android:paddingLeft="5dp"
+                                android:textColor="#34495F"
+                                android:textColorHint="#34495F"
+                                android:fontFamily="@font/candarafont"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_18sdp"
+                        >
+
+                       <Button
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="@string/submit"
+                           android:textColor="#FFFFFF"
+                           android:background="#72C5C9"
+                           android:textSize="@dimen/_18sdp"
+                           android:id="@+id/submit"
+                           android:fontFamily="@font/candarafont"
+                           >
+
+
+
+                       </Button>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>

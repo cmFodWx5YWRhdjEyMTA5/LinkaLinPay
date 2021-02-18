@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_1"
+    tools:context=".fragement.ReferFragment">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:background="@color/color_white"
+            android:src="@drawable/facebook"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+        </ImageView>
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/google_plus"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:background="@color/color_white"
+            android:src="@drawable/whatsapp"
+            android:padding="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+        </ImageView>
+        <ImageView
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/twitter"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="@string/referfriend"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/arial"
+        android:textColor="@color/color_black"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_gravity="center"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/mobile" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_margin="5dp"
+            android:background="@color/color_light"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/edt_mobile"
+            android:hint="@string/mobile"
+            android:textSize="16sp"
+            android:background="@color/color_bgblue"
+            android:textColor="@color/color_blue"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/arial"
+            android:layout_marginLeft="5dp"
+            android:textColorHint="@color/color_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="11"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp">
+            <ImageView
+                android:id="@+id/img_send"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_send"
+                android:layout_margin="10dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+            <TextView
+                android:layout_toRightOf="@id/img_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/corbelbold"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/refer"
+                android:textColor="@color/color_white"
+                android:textSize="18sp"
+                android:id="@+id/refer"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

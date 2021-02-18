@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+    >
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/parentcategory"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+               android:fontFamily="@font/candarafont"
+                />
+
+
+            <Spinner
+                android:id="@+id/parent_category"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/spinner_bg"
+                android:layout_marginTop="@dimen/_10sdp"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/categoryname"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/candarafont"
+                />
+
+
+            <EditText
+                android:id="@+id/catname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#34495F"
+                android:text="@string/categorydesc"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/candarafont"
+                />
+
+
+            <EditText
+                android:id="@+id/catdesc"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rect2"
+                android:inputType="text"/>
+
+           <Button
+                android:id="@+id/btn_submit"
+                android:layout_below="@+id/il_password"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="#72C5C9"
+                android:textStyle="bold"
+                android:fontFamily="@font/candarafont"
+               />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

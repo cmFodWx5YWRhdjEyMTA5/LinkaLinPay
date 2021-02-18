@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dip" > -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cat_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:layout_marginTop="2dip"
+    android:padding="5dip"
+    android:text="Gener"
+    android:textColor="#333"
+    android:textStyle="bold"
+    android:textSize="15sp"
+    android:fontFamily="@font/candarafont"
+
+    />
+
+    <!-- </RelativeLayout> -->

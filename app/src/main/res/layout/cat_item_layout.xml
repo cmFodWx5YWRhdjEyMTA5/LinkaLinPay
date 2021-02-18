@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="8dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerCrop"
+                android:src="@drawable/defaultpic"
+                android:transitionName="iv" />
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginLeft="@dimen/_250sdp"
+                android:src="@drawable/delete"
+                android:id="@+id/delete"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginLeft="@dimen/_220sdp"
+                android:src="@drawable/statusicon"
+                android:id="@+id/statusicon"
+                />
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/color_dark_blue"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:transitionName="title_animator"
+                tools:text="sdsdsdsdsdsdsdsd"
+
+                />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/color_dark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="₦125"
+                android:text="hiiiiiiii"
+
+                />
+
+            <Button
+                android:id="@+id/status"
+                android:layout_width="135dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/desc"
+                android:layout_marginLeft="196dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:ellipsize="end"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="#3ED6CF"
+                android:text="STATUS"
+                />
+            <Button
+                android:id="@+id/status_inactive"
+                android:layout_width="135dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/desc"
+                android:layout_marginLeft="196dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:ellipsize="end"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="#FF0000"
+                android:text="INACTIVE"
+                android:visibility="gone"
+                />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
